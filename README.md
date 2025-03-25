@@ -13,7 +13,7 @@ The following has already been configured in current repo:
 
 2. Hooks
 
-    - You must have a minimal configuration of `hooks.server.ts`
+    - You must have a `hooks.server.ts` file. A minimal configuration is enough for reproduction.
 
 3. Emulate a Production Environment
    
