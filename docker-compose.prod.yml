@@ -1,0 +1,10 @@
+services:
+  kit-prod:
+    image: kit-prod
+    container_name: kit-prod
+    build:
+      context: .
+      dockerfile: Dockerfile.prod
+    ports:
+      - "3000:3000"
+    command: "node ./build/index.js"

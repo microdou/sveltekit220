@@ -1,0 +1,12 @@
+services:
+  kit-dev:
+    image: kit-dev
+    container_name: kit-dev
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    ports:
+      - "5173:5173"
+    command: sh -c "pnpm i && pnpm run dev --host"
+    volumes:
+      - ./app:/app
