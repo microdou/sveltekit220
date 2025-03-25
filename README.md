@@ -1,5 +1,6 @@
 # sveltekit220
 A minimal reproduction of an issue introduced in sveltekit 2.20
+https://github.com/sveltejs/kit/issues/13630
 
 ## Instructions to Reproduce the Issue
 
